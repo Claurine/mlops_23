@@ -1,10 +1,7 @@
-venv/
-.venv/
-pycache /
-*.pyc
-.env
-.vscode/
-.idea/
-.DS_Store
-data/raw/*
-!data/raw/.gitkeep
+fastapi
+uvicorn[standard]
+python-multipart
+openai
+pydantic
+pillow
+python-dotenv
