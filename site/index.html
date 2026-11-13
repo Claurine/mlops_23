@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111f">
+  <title>Layanan AI Lokal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brand-mark">A</span><span>AI Solusi</span></a>
+    <button id="themeButton" class="ghost-button" type="button" aria-label="Ganti tema">Tema</button>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Solusi AI untuk Bisnis Anda</p>
+        <h1>Dinafsirkan data, otomatisasi tugas, hadir di depan mata.</h1>
+        <p class="lead">Kami membantu bisnis lokal memanfaatkan kecerdasan buatan untuk meningkatkan produktivitas, menganalisis data pelanggan, dan otomatisasi proses — tanpa butuhkan tim teknologi besar.</p>
+        <div class="actions">
+          <button id="ctaButton" class="primary-button" type="button">Dapatkan Konsultasi Gratis</button>
+          <a class="text-link" href="#workflow">Cara Kerja Kami</a>
+        </div>
+      </div>
+      <aside class="terminal" aria-label="Contoh instruksi agent">
+        <div class="terminal-head"><span></span><span></span><span></span><b>agent-session</b></div>
+        <pre><code><span class="prompt">$</span> hermes\n<span class="dim">Siap membantu bisnis Anda memulai dengan AI.</span></code></pre>
+      </aside>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="section-title"><p>Layanan</p><h2>Solusi AI yang kami tawarkan</h2></div>
+      <div class="services-grid">
+        <article>
+          <div class="icon">📊</div>
+          <h3>Analisis Data</h3>
+          <p>Menerjemahkan data mentah menjadi insight bisnis yang dapat ditindaklanjuti, dengan visualisasi dan laporan yang jelas.</p>
+        </article>
+        <article>
+          <div class="icon">⚙️</div>
+          <h3>Otomatisasi</h3>
+          <p>Membangun alur kerja otomatis untuk repetitif tugas, dari pelayanan pelanggan hingga pengelolaan inventaris.</p>
+        </article>
+        <article>
+          <div class="icon">💬</div>
+          <h3>Chatbot</h3>
+          <p>Deploy AI-powered chatbot untuk dukungan pelanggar 24/7, responsif dan konsisten.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Workflow -->
+    <section id="workflow" class="section">
+      <div class="section-title"><p>Alur Kerja</p><h2>Satu tujuan, tiga lapisan.</h2></div>
+      <div class="pipeline">
+        <article data-step="1"><span>01</span><h3>Hermes Agent</h3><p>Menerima tujuan, menyusun langkah, dan memilih pekerjaan yang perlu diserahkan.</p><b class="status">Menunggu</b></article>
+        <i>→</i>
+        <article data-step="2"><span>02</span><h3>OpenCode Free</h3><p>Membaca project, membuat HTML, CSS, JavaScript, dan memperbaiki hasil berdasarkan pemeriksaan.</p><b class="status">Menunggu</b></article>
+        <i>→</i>
+        <article data-step="3"><span>03</span><h3>Docker</h3><p>Membangun image Nginx dan menyajikan website pada port yang sama di setiap komputer.</p><b class="status">Menunggu</b></article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-copy">
+        <h2>Siapkan bisnis Anda untuk masa depan</h2>
+        <p>Bicara dengan kami tentang cara solusi AI dapat membantu tujuan Anda hari ini.</p>
+      </div>
+      <div class="cta-actions">
+        <button class="primary-button" type="button">Jadwalkan Konsultasi</button>
+        <a class="text-link" href="mailto:contact@aisolusi.id">Kirim Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>Project praktikum Hermes Agent dan OpenCode</p><span id="clock">--:--</span></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

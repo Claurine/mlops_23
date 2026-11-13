@@ -1,4 +1,10 @@
+.git
+.opencode
+node_modules
+*.log
+README.md
+PROMPT.md
+AGENTS.md
 .venv/
 __pycache__/
 .env
-.git/
