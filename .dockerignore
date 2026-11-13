@@ -1,0 +1,7 @@
+.git
+.opencode
+node_modules
+*.log
+README.md
+PROMPT.md
+AGENTS.md
