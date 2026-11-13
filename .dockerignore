@@ -5,3 +5,6 @@ node_modules
 README.md
 PROMPT.md
 AGENTS.md
+.venv/
+__pycache__/
+.env
